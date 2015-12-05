@@ -13,6 +13,7 @@ gem "thin"
 gem "cloudinary"
 gem "dotenv-rails"
 gem "kaminari"
+gem "sidekiq"
 
 group :development, :test do
   gem "byebug"
