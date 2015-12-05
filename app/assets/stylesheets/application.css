@@ -13,3 +13,8 @@
  *= require_tree .
  *= require_self
  */
+
+.grid-item {
+  width: 200px;
+}
+

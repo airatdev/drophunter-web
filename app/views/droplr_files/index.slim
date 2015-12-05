@@ -1,0 +1,5 @@
+= paginate @droplr_files
+
+.grid
+  - @droplr_files.each do |file|
+    = image_tag(file.url, class: 'grid-item')

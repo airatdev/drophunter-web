@@ -12,5 +12,12 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require turbolinks
 //= require_tree .
+
+$(window).on('load', function() {
+  $(".grid").masonry({
+    itemSelector: "img.grid-item",
+    columnWidth: 200
+  });
+});
+
