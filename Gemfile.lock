@@ -1,9 +1,3 @@
-PATH
-  remote: ../drophunter
-  specs:
-    drophunter (0.2.0)
-      nokogiri (~> 1.6)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -64,6 +58,8 @@ GEM
     dotenv-rails (2.0.2)
       dotenv (= 2.0.2)
       railties (~> 4.0)
+    drophunter (0.3.0)
+      nokogiri (~> 1.6)
     erubis (2.7.0)
     eventmachine (1.0.8)
     execjs (2.6.0)
@@ -172,7 +168,7 @@ DEPENDENCIES
   cloudinary
   coffee-rails (~> 4.1.0)
   dotenv-rails
-  drophunter!
+  drophunter
   jquery-rails
   kaminari
   pg
